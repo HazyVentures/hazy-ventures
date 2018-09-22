@@ -30,6 +30,7 @@ nav {
   left: 0;
   background: #6666ff;
   flex-wrap: wrap;
+  z-index: 1;
 }
 
 nav:before {
@@ -90,7 +91,7 @@ main h4 {
 }
 
 main, nav {
-  box-shadow: 2px 3px 2px #dddddd;
+  box-shadow: 2px 3px 2px #0000001c;
 }
 
 .sharks h3 {
@@ -129,4 +130,9 @@ footer {
   color: #fff;
   text-align: center;
   color: #dddbff;
+}
+
+section {
+  width: 50%;
+    margin: auto;
 }
