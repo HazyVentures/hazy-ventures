@@ -1,3 +1,138 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Notable');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  color: #333333;
+  margin: 0;
   font-family: 'Permanent Marker', cursive;
+  background: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  padding: 2px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: #6666ff;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+nav:before {
+  content: "Hayzee";
+  color: #fff;
+  font-family: 'Notable', sans-serif;
+  font-size: 1.5em;
+  min-width: 100%;
+  text-align: center;
+}
+
+nav a {
+  font-size: 1em;
+  color: #fff;
+  margin: 0 15px;
+  width: 15%;
+  min-width: 200px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #dddbff;
+}
+
+main {
+  width: 75%;
+  margin: 8em auto 2em auto;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+}
+
+main h1 {
+  color: #6b5fff;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+main div {
+  width: 95%;
+  margin: auto;
+}
+
+main ul {
+  display: flex;
+padding: 0;
+justify-content: center;
+}
+
+main li {
+  position: relative;
+  margin: 10px;
+  width: 25%;
+}
+
+main h4 {
+  margin-top: 11em;
+}
+
+main, nav {
+  box-shadow: 2px 3px 2px #0000001c;
+}
+
+.sharks h3 {
+  font-size: 2em;
+  color: #6b5fff;
+}
+
+.sharks li {
+  text-align: left;
+}
+
+.hay-Z::before, .bean::before {
+  content: "";
+  position: absolute;
+  width: 10em;
+  left: 50%;
+  transform: translate(-50%);
+  height: 10em;
+  border-radius: 15px;
+  border: solid #e2e2e2 4px;
+}
+
+.sharks {
+  width: 95%;
+  margin: auto;
+}
+
+.hay-Z::before {
+  background: url(hay.png) center;
+  background-size: cover;
+}
+
+footer {
+  background: #6b5fff;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  color: #dddbff;
+}
+
+section {
+  width: 50%;
+    margin: auto;
 }
