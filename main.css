@@ -1,3 +1,54 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Notable');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  color: #333333;
+  margin: 0;
   font-family: 'Permanent Marker', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  padding: 2px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: #6666ff;
+  flex-wrap: wrap;
+}
+
+nav:before {
+  content: "Hayzee";
+  color: #fff;
+  font-family: 'Notable', sans-serif;
+  font-size: 1.5em;
+  min-width: 100%;
+  text-align: center;
+}
+
+nav a {
+  font-size: 1em;
+  color: #fff;
+  margin: 0 15px;
+  width: 15%;
+  min-width: 200px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #dddbff;
 }
