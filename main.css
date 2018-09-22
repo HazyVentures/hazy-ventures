@@ -8,6 +8,7 @@ body, html {
   color: #333333;
   margin: 0;
   font-family: 'Permanent Marker', cursive;
+  background: #f5f5f5;
 }
 
 a {
@@ -50,5 +51,82 @@ nav a {
 }
 
 nav a:hover {
+  color: #dddbff;
+}
+
+main {
+  width: 75%;
+  margin: 8em auto 2em auto;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+}
+
+main h1 {
+  color: #6b5fff;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+main div {
+  width: 95%;
+  margin: auto;
+}
+
+main ul {
+  display: flex;
+padding: 0;
+justify-content: center;
+}
+
+main li {
+  position: relative;
+  margin: 10px;
+  width: 25%;
+}
+
+main h4 {
+  margin-top: 11em;
+}
+
+main, nav {
+  box-shadow: 2px 3px 2px #dddddd;
+}
+
+.sharks h3 {
+  font-size: 2em;
+  color: #6b5fff;
+}
+
+.sharks li {
+  text-align: left;
+}
+
+.hay-Z::before, .bean::before {
+  content: "";
+  position: absolute;
+  width: 10em;
+  left: 50%;
+  transform: translate(-50%);
+  height: 10em;
+  border-radius: 15px;
+  border: solid #e2e2e2 4px;
+}
+
+.sharks {
+  width: 95%;
+  margin: auto;
+}
+
+.hay-Z::before {
+  background: url(hay.png) center;
+  background-size: cover;
+}
+
+footer {
+  background: #6b5fff;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
   color: #dddbff;
 }
